@@ -17,7 +17,7 @@ const port = process.env.PORT || 4000;
 await connectDB()
 await connectCloudinary()
 
-const allowedOrigins = ['http://localhost:5173', 'https://freshbasket-kappa.vercel.app'];
+const allowedOrigins = ['http://localhost:5173', 'https://green-cart-six-wheat.vercel.app'];
 
 app.use(cors({
     origin: allowedOrigins,
